@@ -1,0 +1,29 @@
+export class modelo{
+    private _nombre: string; 
+    private _serie: string;
+    
+    
+
+    constructor(nombre:string,serie:string){
+        this.nombre = nombre;
+        this.serie = serie ;
+    }
+
+    public get nombre(): string {
+        return this._nombre;
+    }
+    public set nombre(value: string) {
+        this._nombre = value;
+    }
+
+    public get serie(): string {
+        return this._serie;
+    }
+    public set serie(value: string) {
+        this._serie = value;
+    }
+
+   
+
+
+}
