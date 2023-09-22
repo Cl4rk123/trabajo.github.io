@@ -1,0 +1,27 @@
+export class precio{
+    private _iva: string;
+    private _valor: string;
+   
+    
+    
+    constructor(iva: string, valor: string){
+        this.iva = iva;
+        this.valor= valor;
+    }
+
+    public get iva(): string {
+        return this._iva;
+    }
+    public set iva(value: string) {
+        this._iva = value;
+    }
+    
+
+    public get valor(): string {
+        return this._valor;
+    }
+    public set valor(value: string) {
+        this._valor = value;
+    }
+
+}
