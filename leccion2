@@ -1,0 +1,11 @@
+import {marca} from "./marca"
+import {modelo} from "./modelo"
+import {precio} from "./precio"
+import {tinta} from "./tinta"
+
+class impresora{
+    private marca:string;
+    private modelo:string;
+    private tinta:string;
+    private precio:string;
+}
