@@ -1,0 +1,30 @@
+mport { modelo } from "./modelo";
+
+ export class marca {
+    private _marca: string;
+    private _modelo: modelo;   
+ 
+
+    constructor(marca:string,modelo:modelo){
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+    public get marca(): string {
+        return this._marca;
+    }
+    public set marca(value: string) {
+        this._marca = value;
+    }
+
+    public get modelo(): modelo {
+        return this._modelo;
+    }
+    public set modelo(value: modelo) {
+        this._modelo = value;
+    }
+
+
+
+    
+}
