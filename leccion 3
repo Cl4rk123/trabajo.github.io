@@ -1,0 +1,9 @@
+import { marca } from "./marca";
+import { modelo } from "./modelo";
+import { tinta } from "./tinta";
+import { precio } from "./precio";
+
+const Marca = new marca("epson sasdkj", "int");
+const Modelo = new modelo("xtech", "system32");
+const Tinta = new tinta("epson sasdkj", "audio32");
+const Precio = new precio("xtech", "system32");
