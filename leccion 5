@@ -1,0 +1,26 @@
+xport class tinta{
+    private _codigo: string;
+   
+    private _color: string;
+    
+
+    constructor(codigo:string, color:string){
+        this.codigo = codigo;
+        this.color = color;
+    }
+
+    public get codigo(): string {
+        return this._codigo;
+    }
+    public set codigo(value: string) {
+        this._codigo = value;
+    }
+
+    public get color(): string {
+        return this._color;
+    }
+    public set color(value: string) {
+        this._color = value;
+    }
+    
+    }
